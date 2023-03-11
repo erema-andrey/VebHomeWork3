@@ -2,17 +2,21 @@
 <html>
 <head>
      <meta charset="utf-8">
-
-     <title>Как вас зовут?</title>
      </head>
-     <body>
-        <script language="JavaScript">
-   
-    let a = prompt('Как вас зовут?');
-     alert('Привет,${a}');
 
-      
+     <body>
+        <script>
+   
+    let name = prompt("Как вас зовут");
+    ShowName(name);
+    function ShowName(name){
+        let sentence = "Привет," + name;
+    alert(sentence);
+    }
+       
+          
      </script>  
+     </body>
+</html>
  
-</body>
-</html> 
+ 
